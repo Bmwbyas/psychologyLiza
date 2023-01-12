@@ -20,7 +20,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
             longitude: 27.66190368383058,
             zoom: 16
         });
-        
+
 
         return (
             <div className='mt-4' style={newPosition} onClick={onMouseEnterHandler}
