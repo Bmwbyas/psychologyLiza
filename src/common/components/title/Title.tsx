@@ -6,7 +6,7 @@ type TitlePropsType = {
 }
 export const Title: React.FC<TitlePropsType> = ({titleSmall,titleBig}) => {
     return (<>
-            <div className='items-center '>
+            <div className='items-center pt-16 '>
                 <span className='p-2 text-gray-600 bg-gray-400 text-xs '>{titleBig}</span>
             </div>
             <div className='my-6'>

@@ -12,7 +12,7 @@ import {Footer} from "./components/footer/Footer";
 
 function App() {
     return (
-        <div className=" font-mono font-medium ">
+        <div className=" font-mono font-medium  min-h-screen">
             <Header />
             <Routes>
                 <Route path='/' element={<Main />}/>

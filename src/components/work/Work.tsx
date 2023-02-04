@@ -26,7 +26,7 @@ export const Work = () => {
             <div className='flex space-x-6 justify-center '>
                 {works.map((w, index) => {
                     return (
-                        <div className='flex  flex-col  w-80 min-h-96 p-4     bg-gray-600 relative'>
+                        <div key={index} className='flex  flex-col  w-80 min-h-96 p-4     bg-gray-600 relative'>
                             <div className='mt-5'>
                                 <span
                                     className='text-xl text-white p-6 bg-gray-500 rounded-full text-center  '>0{index + 1}</span>
