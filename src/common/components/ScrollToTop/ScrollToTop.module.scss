@@ -1,0 +1,48 @@
+
+
+.arrow {
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 50%;
+  background-color:  #343e4c;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    border:  solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    padding: 3px;
+    color:white;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 26px;
+    left: 25px;
+
+    &:hover{
+      border:  solid #4c5664;
+      color:#4c5664;
+    }
+  }
+}
+
+.arrowActive {
+  opacity: 1;
+  &:hover {
+    color: #4c5664;
+    background-color:black;
+    transition: all .35s ease;
+
+  }
+}
+

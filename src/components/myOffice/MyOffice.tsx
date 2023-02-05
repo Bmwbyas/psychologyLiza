@@ -35,22 +35,22 @@ export const MyOffice = () => {
         <div className='bg-gray-800 flex justify-center min-h-full '>
             <div className='   my-10 flex flex-col  '>
                 <div className='mx-auto  w-10/12'>
-                    <Title titleBig={"Кабинет"} titleSmall={'Личный кабинет психолога'}/>
+                    <Title titleBig={'Направления работы'} titleSmall={'Направления работы'}/>
                 </div>
-                <div className='bg-gray-600 w-screen text-center text-white py-5 mb-5'>Признание проблемы —
+                <div className='bg-gray-600 w-screen text-center text-white text-2xl py-5 mb-5'>Признание проблемы —
                     половина успеха в ее разрешении
                     <br/><span className='text-gray-400'>Зигмунд Фрейд</span><br/>
 
                 </div>
-                <div className='text-white text-2xl font-semibold text-center my-6 '> Направления работы</div>
+                <div className='text-white text-5xl font-semibold text-center my-6 '> Направления работы</div>
                 <div className='w-screen flex justify-center bg-gray-600'>
-                    <div className='flex items-center  w-10/12  '>
+                    <div className='flex items-center  w-10/12 py-5  '>
                         <div className='h-96 w-1/2' style={relationships}></div>
                         <div className=' my-2 text-gray-400 leading-relaxed  text-base pl-5'>
-                            <div className='text-white text-lg font-semibold text-center mb-2 '>
+                            <div className='text-white text-3xl font-semibold text-center mb-2 '>
                                 Взаимоотношения
                             </div>
-                            <ul className='leading-loose'>
+                            <ul className='leading-relaxed text-2xl mb-5'>
                                 <li> - <strong>в паре</strong> (конфликты супругов или партнеров, недопонимание,
                                     охлаждение
                                     чувств)
@@ -65,16 +65,17 @@ export const MyOffice = () => {
                                 </li>
                                 <li> - <strong>травматические разрывы отношений</strong> (развод, измена)</li>
                             </ul>
+                            <a target='_blank' className='text-gray-500 w-40 bg-amber-50  text-l p-2 text-center hover:bg-amber-200 ' href="https://docs.google.com/document/d/1s7Ya_YlAJpHLFZKDe7UXjLVuUSSj20xg/edit?usp=sharing&ouid=100336823535835732272&rtpof=true&sd=true">Глоссарий</a>
                         </div>
                     </div>
                 </div>
                 <div className='flex items-center  w-10/12 mx-auto  '>
 
                     <div className=' my-2 text-gray-400 leading-relaxed  text-base pl-5'>
-                        <div className='text-white text-lg font-semibold text-center mb-2 '>
+                        <div className='text-white text-3xl font-semibold text-center mb-2 '>
                             Личностные проблемы
                         </div>
-                        <ul className='leading-loose'>
+                        <ul className='leading-relaxed text-2xl'>
                             <li> - <strong>негативные эмоции и состояния </strong> (страх, тревога, депрессивное
                                 состояние, апатия, вина, гнев)
                             </li>
@@ -94,10 +95,10 @@ export const MyOffice = () => {
                     <div className='flex items-center  w-10/12  '>
                         <div className='h-96 w-1/2' style={achievements}></div>
                         <div className=' my-2 text-gray-400 leading-relaxed  text-base pl-5'>
-                            <div className='text-white text-lg font-semibold text-center mb-2 '>
+                            <div className='text-white text-3xl font-semibold text-center mb-2 '>
                                 Деятельность и достижения
                             </div>
-                            <ul className='leading-loose'>
+                            <ul className='leading-relaxed text-2xl'>
                                 <li> - <strong>неудовлетворенность профессиональной жизнью</strong> (профессиональное
                                     выгорание, неудовлетворенность социально-профессиональным статусом, кризис
                                     профессионального развития)
@@ -118,10 +119,10 @@ export const MyOffice = () => {
                 <div className='flex items-center  w-10/12 mx-auto  '>
 
                     <div className=' my-2 text-gray-400 leading-relaxed  text-base pl-5'>
-                        <div className='text-white text-lg font-semibold text-center mb-2 '>
+                        <div className='text-white text-3xl font-semibold text-center mb-2 '>
                             Помощь подросткам
                         </div>
-                        <ul className='leading-loose'>
+                        <ul className='leading-relaxed text-2xl'>
                             <li> - <strong>трудности в отношениях с окружающими </strong> (замкнутость, повышенная агрессивность, отвержение сверстниками, асоциальное поведение)
                             </li>
                             <li> - <strong>негативные психические состояния и неконтролируемые эмоциональные всплески</strong>(аутоагрессия, тревожность, депрессивное состояние, суицидальные мысли, экзаменационный стресс)

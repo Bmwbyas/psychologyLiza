@@ -9,10 +9,12 @@ import {MyOffice} from "./components/myOffice/MyOffice";
 import {Work} from "./components/work/Work";
 import {Contacts} from "./components/contacts/Contacts";
 import {Footer} from "./components/footer/Footer";
+import {ScrollToTop} from "./common/components/ScrollToTop/ScrollToTop";
 
 function App() {
     return (
-        <div className=" font-mono font-medium  min-h-screen">
+        <div id={'home'} className=" font-mono font-medium  min-h-screen">
+            <ScrollToTop/>
             <Header />
             <Routes>
                 <Route path='/' element={<Main />}/>

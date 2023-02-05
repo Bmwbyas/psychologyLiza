@@ -10,7 +10,7 @@ export const Header = () => {
                 Главная
             </NavLink>
             <NavLink className='p-4 text-amber-50 hover:bg-gray-400' to={routes.aboutMe}>
-                Личный кабинет
+                Направления работы
             </NavLink>
             <NavLink className='p-4 text-amber-50 hover:bg-gray-400' to={routes.work}>
                 Мои проекты
