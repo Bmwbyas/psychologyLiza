@@ -2,32 +2,32 @@ import React from 'react';
 import myPhoto from '../../assets/image/avatar.jpg'
 import myBook from '../../assets/image/book.jpg'
 import myNotebook from '../../assets/image/bloknot-ruchka-pero-chernila.jpg'
-import myCabinet from '../../assets/image/char.jpg'
+import myCabinet from '../../assets/image/work/img1.jpg'
 import {Title} from "../../common/components/title/Title";
 import {Container} from "../../common/components/container/Container";
 
 const Main = () => {
     const photo = {
         backgroundImage: 'url(' + myPhoto + ')',
-        backgroundSize: 'contain',
-        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat'
     }
     const book = {
         backgroundImage: 'url(' + myBook + ')',
-        backgroundSize: 'contain',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
     const notebook = {
         backgroundImage: 'url(' + myNotebook + ')',
-        backgroundSize: 'contain',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
     const cabinet = {
         backgroundImage: 'url(' + myCabinet + ')',
-        backgroundSize: 'contain',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
@@ -37,8 +37,8 @@ const Main = () => {
         <Container>
             <Title titleBig={'Личная'} titleSmall={'Обо мне'}/>
             <div className=' flex justify-center flex-wrap my-4 '>
-                <div className='w-1/2 h-96' style={photo}></div>
-                <div className=' w-1/2 my-2 text-gray-400  text-xl'>
+                <div className='min-w-min max-w-xl w-full h-96 '  style={photo}></div>
+                <div className=' w-1/2 my-2 text-gray-400 pl-10 sm:pt-5  text-xl'>
                     Психологическое консультирование для меня— возможность участвовать в отношениях, где фокус моего
                     внимания всегда на ваших потребностях.
                     <br/><br/>

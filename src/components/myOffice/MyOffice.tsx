@@ -3,32 +3,32 @@ import {Title} from "../../common/components/title/Title";
 import myRelationships from "../../assets/image/cabinet/Relationships.jpg";
 import mySelfProblem from "../../assets/image/cabinet/selfProblem.jpg";
 import myAchievements from "../../assets/image/cabinet/Macbook_girl.jpg";
-import myTeenager from "../../assets/image/cabinet/teenager.jpg";
+import myTeenager from "../../assets/image/cabinet/teens.jpg";
 
 
 export const MyOffice = () => {
     const relationships = {
         backgroundImage: 'url(' + myRelationships + ')',
-        backgroundSize: 'contain',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
     const selfProblem = {
         backgroundImage: 'url(' + mySelfProblem + ')',
-        backgroundSize: 'contain',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
     const achievements = {
         backgroundImage: 'url(' + myAchievements + ')',
-        backgroundSize: 'contain',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
     const teenager = {
         backgroundImage: 'url(' + myTeenager + ')',
-        backgroundSize: 'contain',
-        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat'
     }
     return (
@@ -89,11 +89,11 @@ export const MyOffice = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='h-96 w-1/2' style={selfProblem}></div>
+                    <div className='h-96 w-1/2 my-10' style={selfProblem}></div>
                 </div>
                 <div className='w-screen flex justify-center bg-gray-600'>
                     <div className='flex items-center  w-10/12  '>
-                        <div className='h-96 w-1/2' style={achievements}></div>
+                        <div className='h-96 w-1/2 my-10' style={achievements}></div>
                         <div className=' my-2 text-gray-400 leading-relaxed  text-base pl-5'>
                             <div className='text-white text-3xl font-semibold text-center mb-2 '>
                                 Деятельность и достижения
@@ -132,8 +132,12 @@ export const MyOffice = () => {
                             <li> - <strong>психологическая диагностика</strong> (способностей, черт личности, актуального психологического состояния)
                             </li>
                         </ul>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/unaUtMY-oD0"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
                     </div>
-                    <div className='h-96 w-1/2' style={teenager}></div>
+                    <div className='h-96 w-1/2 mt-10' style={teenager}></div>
                 </div>
 
             </div>
